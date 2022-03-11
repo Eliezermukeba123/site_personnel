@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title> Questionnaire </title>
+    <link rel="stylesheet" href="formulaire.css">
+    <script src="formulaire.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1> Répondre aux questionnaires </h1>
+        <div id="results">
+            <h2> Le score est null </h2>
+        </div>
+    </div>
+    <div class="body">
+        <form name="quiz" onsubmit="return onSubmit()">
+            <div class="question">
+                <h1> Arhmède etait un savant : </h1>
+                <input type="radio" name="q1" value="a"> Italien<br>
+                <input type="radio" name="q1" value="b"> Grec<br>
+                <input type="radio" name="q1" value="c"> Roumain <br>
+            </div>
+
+            <div class="question">
+                <h1> La capital de la colombie est : </h1>
+                <input type="radio" name="q2" value="a"> Quito<br>
+                <input type="radio" name="q2" value="b"> Bogota<br>
+                <input type="radio" name="q2" value="c"> Panama <br>
+            </div>
+
+            <div class="question">
+                <h1> Qui a réalisé le film <em> Les Oiseaux </em> en 1963 : </h1>
+                <input type="radio" name="q3" value="a"> Hitchcock<br>
+                <input type="radio" name="q3" value="b"> Duvivier<br>
+                <input type="radio" name="q3" value="c"> Chaplin <br>
+            </div>
+
+            <div class="question">
+                <h1> Marie Curie furt la première femme à recvoir un prix prestigieux.Est-ce le prix : </h1>
+                <input type="radio" name="q4" value="a"> Nobel<br>
+                <input type="radio" name="q4" value="b"> Femima<br>
+                <input type="radio" name="q4" value="c"> Goncourt <br>
+            </div>
+
+            <div class="question">
+                <h1> Marie Laurencin est connue comme : </h1>
+                <input type="radio" name="q5" value="a"> vedette de cinéma <br>
+                <input type="radio" name="q5" value="b"> comédienne <br>
+                <input type="radio" name="q5" value="c"> peintre <br>
+            </div>
+
+            <div class="question">
+                <h1> Le Louvre est une ancienne résidence : </h1>
+                <input type="radio" name="q6" value="a"> papale<br>
+                <input type="radio" name="q6" value="b"> royale<br>
+                <input type="radio" name="q6" value="c"> impérial <br>
+            </div>
+
+            <div class="question">
+                <h1> Qui a découvert le vaccin contre la rage : </h1>
+                <input type="radio" name="q7" value="a"> Pasteur <br>
+                <input type="radio" name="q7" value="b"> Pierre Curie<br>
+                <input type="radio" name="q7" value="c"> Calmette <br>
+            </div>
+
+
+            <div class="question">
+                <h1> Le travail des enfants de moins de huit ans a été interdi en : </h1>
+                <input type="radio" name="q8" value="a"> 1801<br>
+                <input type="radio" name="q8" value="b"> 1821<br>
+                <input type="radio" name="q8" value="c"> 1841 <br>
+            </div>
+
+
+            <div class="question">
+                <h1> La France métropolitaine compte : </h1>
+                <input type="radio" name="q9" value="a"> 20 regions<br>
+                <input type="radio" name="q9" value="b"> 21 regions<br>
+                <input type="radio" name="q9" value="c"> 22 regions <br>
+            </div>
+
+
+            <div class="question">
+                <h1> Qui est l'actuel président de la RDC : </h1>
+                <input type="radio" name="q10" value="a"> Joseph kasavubu <br>
+                <input type="radio" name="q10" value="b"> Moise Katumbi<br>
+                <input type="radio" name="q10" value="c"> Felix tshisekedi <br>
+            </div>
+            <button type="submit"> Tester maintenant</button>
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
