@@ -27,3 +27,44 @@
 .project :hover .sous_menu {
     display: block;
 }
+
+.barre {
+    background-color: white;
+}
+
+.img1 {
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 200px;
+    height: 200px;
+    border: none;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.cont {
+    font-size: 20px
+}
+
+.total h1 {
+    color: #f00e2c;
+}
+
+.card {
+    box-shadow: 0 4px 8 px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.4S;
+    width: 300px;
+    text-align: center;
+    font-family: sans-serif;
+    float: left;
+    margin: 150px;
+    margin-top: 50px;
+}
+
+.travail {
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+    color: rgb(17, 80, 197);
+}
