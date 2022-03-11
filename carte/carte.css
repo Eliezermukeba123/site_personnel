@@ -1,0 +1,37 @@
+.map__image {
+    width: 80%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+
+.map__image path {
+    fill: #a4ced2;
+    stroke: #330808;
+    stroke: width 3px;
+    transition: fill 0.1s;
+}
+
+.map__list {
+    float: right;
+    width: 10%;
+}
+
+.map__list {
+    color: inherit;
+    float: right;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.land {
+    fill: #c93838;
+    fill-opacity: 1;
+    stroke: rgb(34, 9, 148);
+    stroke-opacity: 1;
+    stroke-width: 0.5;
+}
+
+h1 {
+    text-align: center;
+}

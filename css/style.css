@@ -1,0 +1,29 @@
+.cc_nav {
+    background-color: #6e6363;
+    font-family: serif;
+    box-shadow: 1px 1px 3px rgba(0, 255, 255, 255.);
+    color: white;
+    font-size: 30px;
+}
+
+.cc_nav .nav-link {
+    color: white;
+    font-size: 30px;
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4S case-in-out, border-color .3s case;
+}
+
+.cc_nav .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.banner {
+    background-color: rgb(238, 238, 217);
+    background-image: url('../img/fond.jpg');
+    height: 500px;
+}
+
+.project :hover .sous_menu {
+    display: block;
+}
